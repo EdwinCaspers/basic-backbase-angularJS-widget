@@ -1,0 +1,34 @@
+{
+  "name": "basic-widget",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "karma start",    
+    "start": "http-server -a localhost -p 3333 -c-1 ./src/ -o -d"
+  },
+  "keywords": [],
+  "author": "Edwin Caspers",
+  "license": "ISC",
+  "repository": "https://bitbucket.org/hscb/capgemini/basic-widget/",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "http-server": "^0.9.0",
+    "install": "^0.8.1",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-safari-launcher": "^1.0.0"
+  }
+}
